@@ -49,7 +49,6 @@ func _on_MobTimer_timeout():
     mob.modulate = Color(
         rand_range(0.5, 1),
         rand_range(0.5, 1),
-        rand_range(0.5, 1),
-        rand_range(0.8, 1))
+        rand_range(0.5, 1))
 
     add_child(mob)
